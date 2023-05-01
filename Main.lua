@@ -1,8 +1,8 @@
+local correctAnswer ="Berlin"
 print "Enter capital City of Germany"
 input =  io.read()
-print(input)
-if(input == "Berlin") then
- print("Correct")
-else
- print("Incorrect")
+if(input == correctAwnser) then
+ print("You got it right")
+else 
+  print(correctAnswer .. " Was the correct answer")
 end
